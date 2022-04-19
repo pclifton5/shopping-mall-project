@@ -1,2 +1,2 @@
-public class checkout {
+public class checkout implements basket{
 }

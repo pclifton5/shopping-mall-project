@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class clothesStore extends store{
+public class clothesStore extends store implements basket{
     private Map<String, Double> inventory = new HashMap<>();
 
     public clothesStore(String name, boolean open, String location, Map<String, Double> inventory) {

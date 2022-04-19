@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class gamesStore extends store{
+public class gamesStore extends store implements basket{
     private Map<String, Double> inventory = new HashMap<>();
 
     public gamesStore(String name, boolean open, String location, Map<String, Double> inventory) {
@@ -16,6 +16,8 @@ public class gamesStore extends store{
     public void setInventory(Map<String, Double> inventory) {
         this.inventory = inventory;
     }
+
+
 
     @Override
     public String toString() {

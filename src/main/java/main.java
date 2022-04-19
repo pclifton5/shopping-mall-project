@@ -10,9 +10,10 @@ public class main {
 
         //call order
         System.out.println(welcome);
+        directory director = new directory();
+        director.directory();
 
         //Directory method
-
 //
 //        checkout();
 
